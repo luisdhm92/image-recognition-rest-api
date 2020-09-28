@@ -1,5 +1,6 @@
 from models.cnn.image_classifier import ImageClassifier
 from models.cnn.restnet50 import RestNetImageClassifier
+from models.cnn.xception import XceptionImageClassifier
 
 
 class ImageClassifierFactory:
@@ -7,10 +8,8 @@ class ImageClassifierFactory:
     @staticmethod
     def get_image_classifier(model='') -> ImageClassifier:
 
-        if model is 'lenet-5':
-            classifier = RestNetImageClassifier()
-        elif model is 'xception':
-            classifier = RestNetImageClassifier()
+        if model is 'xception':
+            classifier = XceptionImageClassifier()
         else:
             # default model restnet50
             classifier = RestNetImageClassifier()
