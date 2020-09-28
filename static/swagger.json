@@ -1,0 +1,43 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "A Python3 Flask Rest with RestNet50 for image classification",
+    "version": "0.1.0",
+    "title": "RestNet50 with Keras and Flask",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "CNN Image Classifications",
+      "description": "Example API for requesting image classification"
+    }
+  ],
+  "paths": {
+    "/classify-images": {
+      "get": {
+        "tags": [
+          "CNN Image Classifications"
+        ],
+        "summary": "Returns image classifications",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      
+    }
+  }
+}

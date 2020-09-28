@@ -1,0 +1,1 @@
+640 x 480 images with simple objects

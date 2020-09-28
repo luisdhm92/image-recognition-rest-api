@@ -1,0 +1,6 @@
+{
+    "name": "RestNet50 with Keras and Flask",
+    "description": "A Python3 Flask Rest with RestNet50 for image classification",
+    "repository": "https://github.com/...",
+    "keywords": ["python", "flask", "rest", "swagger-ui", "keras", "cnn", "deep learning"]
+}
