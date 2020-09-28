@@ -62,7 +62,7 @@ validation_class_fours = (np.array([
 # Instantiate callbacks
 # class_index value should match the validation_data selected above
 callbacks = [
-    # GradCAMCallback raises error because breaks rules for tensorflow tf_function decorator
+    # GradCAMCallback raises error because breaks rules for tensorflow 2.3.0 tf_function decorator
     tf_explain.callbacks.GradCAMCallback(validation_class_zero, layer_name='target_layer', class_index=0),
     tf_explain.callbacks.GradCAMCallback(validation_class_fours, layer_name='target_layer', class_index=4),
     tf_explain.callbacks.ActivationsVisualizationCallback(validation_class_zero, layers_name=['target_layer']),
