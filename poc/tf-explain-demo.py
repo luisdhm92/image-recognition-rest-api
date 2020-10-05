@@ -7,7 +7,7 @@ AVAILABLE_DATASETS = {
     'fashion_mnist': tf.keras.datasets.fashion_mnist,
 }
 
-DATASET_NAME = 'fashion_mnist' #@param ["fashion_mnist", "mnist"]
+DATASET_NAME = 'fashion_mnist'
 print(DATASET_NAME)
 
 INPUT_SHAPE = (28, 28, 1)
