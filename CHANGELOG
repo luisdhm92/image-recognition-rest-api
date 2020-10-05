@@ -1,0 +1,19 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+- Add support to use docker and docker compose to deploy the system
+- Fix the input shape for the xception model 
+- Include the custom models in the **poc** folder to the main mechanism
+
+
+## [0.1.0]
+### Added
+- Include a mechanism to load pre-trained CNN models to identify the objects in the images
+- Add a Rest API as entry point to the system using Flask
+- Use Swagger to document the Rest API
+- Include a POC script to test transfer learning to a custom CNN model for detecting specific objects
+- Include a POC script to test some concepts related to Explainable Artificial Intelligence (XAI) 
