@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Add support to use docker and docker compose to deploy the system
+- Fix the input shape for the xception model 
 - Include the custom models in the **poc** folder to the main mechanism
 
 

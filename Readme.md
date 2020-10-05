@@ -16,8 +16,8 @@ You could get more information about how to create a virtual environment in this
 
 - Activate the virtual environment
 - Run in terminal `python app.py`
-- Navigate in a browser to the Swagger UI: **http://localhost:8000/swagger**
-- If you want to see the image you can navigate to **http://localhost:8000/static/<image_name>** 
+- Navigate in a browser to the Swagger UI: **http://localhost:5000/swagger**
+- If you want to see the images you can navigate to **http://localhost:5000/static/<image_name>** 
 
 ## Information about requirements
 ### Tensorflow

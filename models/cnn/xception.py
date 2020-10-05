@@ -9,6 +9,8 @@ class XceptionImageClassifier(ImageClassifier):
 
     def classify_images(self, directory: str):
 
+        # todo: fix the input format to be processed by xception
+
         static_images = get_images(directory)
         model = tf.keras.applications.xception.Xception(weights="imagenet")
         classifications = {
